@@ -1,0 +1,25 @@
+.button {
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  transition: background-size ease 0.3s;
+}
+
+.button:hover {
+  background-size: 36px 36px;
+}
+
+.buttonBlock {
+  background-image: url("./lock.svg");
+}
+
+.buttonUnblock {
+  background-image: url("./unlock.svg");
+}
+
+.buttonDelete {
+  background-image: url("./delete.svg");
+}
+
